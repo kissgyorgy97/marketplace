@@ -29,6 +29,6 @@ Mind that when you are deploying to Ganache you are using the first generated ac
 When you are testing, running the application several time not just once make sure to use `truffle migrate --reset` .
 
 
-### sources used:
+### Sources used:
 cryptozombies.io, Openzeppelin-solidity, Truffle, => truffle-react box, NPM, Web3, Infura.io, articles from Medium, 
 Consensys sources(open, and 2018 developer program), Decentraland.io, Originprotocol, marketplaces found around ;)
