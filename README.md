@@ -8,15 +8,16 @@ Note 2: these instructions use Ganache but you could use also truffle develop.
 
 1. Open a terminal session and navigate to the location you'd like to store a copy of the repo in.
 2. Clone the repo: `git clone https://github.com/kissgyorgy97/marketplace.git`.
-Move into the root directory of the project: `cd marketplace`.
-Install ETHpm library dependencies (Open Zeppelin): `truffle install`.
-Start Ganache.
-Migrate the contracts to the lolcal blockchain: `truffle migrate`.
-Open a second terminal window and navigate to the root directory of the project.
-Install front end dependencies via npm: `npm install`.
-Build the front end react app and open it in the browser (at http://localhost:3000): `npm run start`.
+3. Move into the root directory of the project: `cd marketplace`.
+4. Install ETHpm library dependencies (Open Zeppelin): `truffle install`.
+5. Start Ganache.
+6. Migrate the contracts to the lolcal blockchain: `truffle migrate`.
+7. Open a second terminal window and navigate to the root directory of the project.
+8. Install front end dependencies via npm: `npm install`.
+9. Build the front end react app and open it in the browser (at http://localhost:3000): `npm run start`.
 
-Mind that when you are deploying to Ganache you are using the first generated account so when you start the application, you need to import to metamask the private key of that account for recognizing as admin.
+ ##!!
+ Mind that when you are deploying to Ganache you are using the first generated account so when you start the application, you need to import to metamask the private key of that account for recognizing as admin.
 
 ### Running test
 
