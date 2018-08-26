@@ -6,8 +6,8 @@ Note 1: These steps assume you have NodeJS, NPM, Truffle, Git, Ganache and MetaM
 
 Note 2: these instructions use Ganache but you could use also truffle develop.
 
-Open a terminal session and navigate to the location you'd like to store a copy of the repo in.
-Clone the repo: `git clone https://github.com/kissgyorgy97/marketplace.git`.
+1. Open a terminal session and navigate to the location you'd like to store a copy of the repo in.
+2. Clone the repo: `git clone https://github.com/kissgyorgy97/marketplace.git`.
 Move into the root directory of the project: `cd marketplace`.
 Install ETHpm library dependencies (Open Zeppelin): `truffle install`.
 Start Ganache.
