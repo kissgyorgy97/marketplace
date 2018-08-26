@@ -13,5 +13,5 @@ The Store contract utilizes a pull over push strategy for sending ETH to store o
 ## Transaction Order Dependence
 The Store contract let costumers to buy products only with already existing ID-s and for that there are requirements to set the price so there could be no coonfusion in the proccess.
 
-## DoS with Block Gas Limi
+## DoS with Block Gas Limit
 The Marketplace contract sets a whitelist before the admin could add a new store owner instead of getting a request from addresses to be store owners, as like this way there could be no error on iterating through inrationally lot of requests.
