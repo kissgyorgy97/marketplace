@@ -1,6 +1,7 @@
 # marketplace
 ## marketplace example dapp still under improvements(very welcome for any contributors ;) )
 
+### Frontend now only get your address and show account type and show public address
 ### Setup/Run Steps
 Note 1: These steps assume you have NodeJS, NPM, Truffle, Git, Ganache and MetaMask already set up. If you are missing any of those dependencies, please find their respective documentation online and set them up first.
 
