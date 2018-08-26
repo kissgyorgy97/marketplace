@@ -11,7 +11,7 @@ Clone the repo: `git clone https://github.com/kissgyorgy97/marketplace.git`.
 Move into the root directory of the project: `cd marketplace`.
 Install ETHpm library dependencies (Open Zeppelin): `truffle install`.
 Start Ganache.
-Migrate the contracts to the lolcal blockchain: ``truffle migrate`.
+Migrate the contracts to the lolcal blockchain: `truffle migrate`.
 Open a second terminal window and navigate to the root directory of the project.
 Install front end dependencies via npm: `npm install`.
 Build the front end react app and open it in the browser (at http://localhost:3000): `npm run start`.
