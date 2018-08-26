@@ -7,9 +7,6 @@ The Marketplace contract is responsible for instantiating instances of Store con
 ## Integer Overflow and Underflow
 The Store contract works with `uint256` type data, and some of it comes as user input so to make sure the ower- or underflow could not happen I have used SafeMath from openzeppelin-solidity.
 
-## Poison Data
-Both the Marketplace and Store contracts accept user inputs of type string. As such, we must guard against long strings as a potential source of poison data. All places that accept string inputs include a modifier that checks the length of the incoming strings.
-
 ## Pull Over Push
 The Store contract utilizes a pull over push strategy for sending ETH to store owner to mitigate a potential for sending funds to resulting in a fail to prevent purchases from occuring. 
 
