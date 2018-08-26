@@ -50,6 +50,7 @@ class App extends Component {
         .then(() => this.state.marketplaceInstance.getUserType.call({from: accounts[0]}))
         .then((accountType) => this.setState({ accountType: accountType }))
     })
+    
   }
 
   render() {
@@ -68,6 +69,7 @@ class App extends Component {
               <p>The account type is: {this.state.accountType} and your public address is {this.state.currentAccount}</p>
             </div>
           </div>
+          
         </main>
       </div>
     );

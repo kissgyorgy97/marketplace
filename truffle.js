@@ -1,5 +1,4 @@
-/**
- * 
+
  var HDWalletProvider = require("truffle-hdwallet-provider");
 var mnemonic = "message pond bunker announce asset cheese short dumb mercy jaguar fall east";
 
@@ -12,9 +11,9 @@ module.exports = {
     }   
   }
 }
- */ 
 
-module.exports = {
+
+/*module.exports = {
   networks: {
     development: {
       host: "127.0.0.1",
@@ -23,3 +22,4 @@ module.exports = {
     }
   }
 };
+*/
