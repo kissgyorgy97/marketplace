@@ -10,7 +10,7 @@ Note 2: these instructions use Ganache but you could use also truffle develop.
 1. Open a terminal session and navigate to the location you'd like to store a copy of the repo in.
 2. Clone the repo: `git clone https://github.com/kissgyorgy97/marketplace.git`.
 3. Move into the root directory of the project: `cd marketplace`.
-4. Install ETHpm library dependencies (Open Zeppelin): `truffle install`.
+4. Install ETHpm library dependencies (Open Zeppelin): `truffle install openzeppelin-solidity`.
 5. Start Ganache.
 6. Migrate the contracts to the lolcal blockchain: `truffle migrate`.
 7. Open a second terminal window and navigate to the root directory of the project.
